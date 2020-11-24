@@ -11,6 +11,6 @@ public class Work implements Work_price {
     @Override
     public void workPrice() {
         int wPrice = track1.fPrice() * 16 + quantity + foreman1.getSalary();
-        System.out.println(wPrice);
+        System.out.println("This work costs - " + wPrice + " $");
     }
 }
