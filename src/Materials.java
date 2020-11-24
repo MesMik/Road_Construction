@@ -60,4 +60,10 @@ public class Materials {
         setPriceOfM(priceOfM);
         setWieghtOfM(wieghtOfM);
     }
+
+
+    public int mPrice(){
+        int matPerKilo = countOfM / (int)wieghtOfM ;
+        return matPerKilo;
+    }
 }
